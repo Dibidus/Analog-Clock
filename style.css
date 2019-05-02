@@ -44,3 +44,47 @@ body {
 	transition: all 0.05s;
 	transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
+.second-hand {
+	height: 2px;
+	background-color: red;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+.minute-hand {
+	height: 6px;
+	background-color: #000;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+.hour-hand {
+	height: 5px;
+	background-color: darkblue;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+span {
+	display: inline-block;
+	position: absolute;
+	color: #eee;
+	font-size: 35px;
+	font-family: 'Poiret One';
+	font-weight: 1000;
+}
+.h12 {
+	top: 30px;
+	left: 50%;
+	margin-left: -9px;
+}
+.h3 {
+	top: 150px;
+	right: 30px;
+}
+.h6 {
+	bottom: 30px;
+	left: 50%;
+	margin-left: -5px;
+}
+.h9 {
+	left: 32px;
+	top: 150px;
+}
